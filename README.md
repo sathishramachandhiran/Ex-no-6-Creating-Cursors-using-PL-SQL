@@ -24,7 +24,8 @@ emp_id NUMBER;
   CURSOR employee_cursor IS
     SELECT empid, empname, dept, salary
     FROM employee;
-
+```
+```sql
 BEGIN
 
   OPEN employee_cursor;
